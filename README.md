@@ -1,4 +1,4 @@
-# AI-NPC2: Multi-Turn Secret Extraction from Persona-Embedded LLM Agents
+# Multi-Turn Secret Extraction from Persona-Embedded LLM Agents
 
 This repository contains the code and data for "Multi-Turn Secret Extraction from Persona-Embedded LLM Agents". This experiment runs the same target NPC configuration (Optimal) against four attack families across seven-turn conversations, producing 1,000 conversations and 7,000 NPC responses.
 

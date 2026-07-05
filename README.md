@@ -1,6 +1,6 @@
 # Multi-Turn Secret Extraction from Persona-Embedded LLM Agents
 
-This repository contains the code and data for "Multi-Turn Secret Extraction from Persona-Embedded LLM Agents". This experiment runs the same target NPC configuration (Optimal) against four attack families across seven-turn conversations, producing 1,000 conversations and 7,000 NPC responses.
+This repository contains the code and data for **"Multi-Turn Secret Extraction from Persona-Embedded LLM Agents"**. This experiment runs the same target NPC configuration (Optimal) against four attack families across seven-turn conversations, producing 1,000 conversations and 7,000 NPC responses.
 
 The target NPC, Aethelgard the Eternal, guards a secret phrase (AZURE_PHOENIXX) under a persona-embedded system prompt. An automated Gemini 2.5 Flash attacker, conditioned on one of four strategies, attempts extraction across seven turns per conversation. The manuscript's primary disclosure measures are the judge-assigned Semantic Judgment Index (SJI) and a regex-based Component Disclosure Index (CDI), used as a comparison baseline. The Linguistic Fragmentation Index (LFI) is also computed throughout the pipeline but is exploratory: it is not used or discussed in the current manuscript. See "Notes on the data" below.
 
